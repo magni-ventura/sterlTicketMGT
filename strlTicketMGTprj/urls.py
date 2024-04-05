@@ -21,8 +21,9 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-admin.site.site_header = "Magni Homes Admin",
-admin.site.site_title = "Magni Homes Portal",
-admin.site.index_title = "Welcome to The Magni Homes Portal",
+admin.site.site_header = "Sterling Ticketing System",
+admin.site.site_title = "Sterling Ticketing System Portal",
+admin.site.index_title = "Welcome to The Sterling Ticketing System Portal",
